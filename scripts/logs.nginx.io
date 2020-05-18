@@ -1,6 +1,6 @@
 server
 {
-    server_name default_server;
+    server_name logs.graylog.test.com;
 
     location / {
       proxy_set_header Host $http_host;
@@ -23,7 +23,7 @@ server
 
 server
 {
-	server_name default_server;
+	server_name logs.graylog.test.com;
     listen 80;
 
 	location / {
